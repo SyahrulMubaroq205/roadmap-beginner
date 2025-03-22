@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.container2{
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.project, .work, .education {
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.reviews {
+    text-align: center;
+    padding: 10px;
+}
+
+.reviews-box{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+}
