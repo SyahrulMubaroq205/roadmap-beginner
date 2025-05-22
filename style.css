@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    padding-top: 200px;
+  }
+  
+  .container {
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .left-text {
+    font-size: 24px;
+    max-width: 300px;
+    line-height: 1.4;
+    margin-bottom: 50px;
+  }
+  
+  .arrow {
+    font-size: 50px;
+    margin-top: -70px;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .tooltip {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 18px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .tooltip-arrow {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid black;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+  }
+  
+  .spacer {
+    color: gray;
+  }
+  
+  .highlight {
+    position: relative;
+  }
+  
