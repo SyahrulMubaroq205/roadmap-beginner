@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tab-container">
+      <div class="tabs">
+        <button class="tab active" data-tab="tab1">First Tab</button>
+        <button class="tab" data-tab="tab2">Second Tab</button>
+        <button class="tab" data-tab="tab3">Third Tab</button>
+        <button class="tab" data-tab="tab4">Fourth Tab</button>
+      </div>
+      <div class="tab-content active" id="tab1">
+        <p>
+          Clicking each tab should hide the content of the other tab and show
+          the content of clicked tab. By default, enable the first tab.
+        </p>
+        <div class="black-box">First Tab content to be displayed here.</div>
+        <p>Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+      <div class="tab-content" id="tab2">
+        <p>This is the content of the Second Tab.</p>
+        <div class="black-box">Second Tab content to be displayed here.</div>
+        <p>You can add more elements here if needed.</p>
+      </div>
+      <div class="tab-content" id="tab3">
+        <p>This is the content of the Third Tab.</p>
+        <div class="black-box">Third Tab content to be displayed here.</div>
+      </div>
+      <div class="tab-content" id="tab4">
+        <p>This is the content of the Fourth Tab.</p>
+        <div class="black-box">Fourth Tab content to be displayed here.</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
